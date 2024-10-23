@@ -5,7 +5,7 @@ import networkx as nx
 app = Flask(__name__)
 
 # Set up Google Maps API
-API_KEY = 'AIzaSyDfybj_MOvOjFEy7G5G1-UoUW_RywGy1hw'  # Replace with your actual API key
+API_KEY = 'api_here'  # Replace with your actual API key
 gmaps = googlemaps.Client(key=API_KEY)
 
 # Function to fetch coordinates using Geocoding API
